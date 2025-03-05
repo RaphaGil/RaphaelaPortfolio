@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RaphaelaPortfolio/static/css/main.9905f77d.css",
-    "main.js": "/RaphaelaPortfolio/static/js/main.c23177bf.js",
+    "main.css": "/RaphaelaPortfolio/static/css/main.3b442c5c.css",
+    "main.js": "/RaphaelaPortfolio/static/js/main.d0567712.js",
     "static/js/151.f740d5ff.chunk.js": "/RaphaelaPortfolio/static/js/151.f740d5ff.chunk.js",
     "index.html": "/RaphaelaPortfolio/index.html",
-    "main.9905f77d.css.map": "/RaphaelaPortfolio/static/css/main.9905f77d.css.map",
-    "main.c23177bf.js.map": "/RaphaelaPortfolio/static/js/main.c23177bf.js.map",
+    "main.3b442c5c.css.map": "/RaphaelaPortfolio/static/css/main.3b442c5c.css.map",
+    "main.d0567712.js.map": "/RaphaelaPortfolio/static/js/main.d0567712.js.map",
     "151.f740d5ff.chunk.js.map": "/RaphaelaPortfolio/static/js/151.f740d5ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9905f77d.css",
-    "static/js/main.c23177bf.js"
+    "static/css/main.3b442c5c.css",
+    "static/js/main.d0567712.js"
   ]
 }
