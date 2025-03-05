@@ -9,7 +9,7 @@ function Nav() {
       {/* Left side - Logo */}
       <div className="pl-4">
         <img
-          src="/logo.png"
+          src={`${process.env.PUBLIC_URL}/images/logo.png`}
           className="w-[25%] sm:w-[20%] md:w-[22%] lg:w-[24%] xl:w-[26%] max-w-[250px] min-w-[80px]"
           alt="Logo"
         />

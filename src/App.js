@@ -1,6 +1,4 @@
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Nav from './components/Nav';
 import Home from "./components/Home";  // Main Home Page
 import About from './pages/About';  // About Section
@@ -12,7 +10,7 @@ import Contact from './components/Contact.jsx'
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
      {/* Navigation bar should always be visible */}
       
       <Routes>

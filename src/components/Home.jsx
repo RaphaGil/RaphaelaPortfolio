@@ -71,7 +71,7 @@ function Home() {
 
         {/* Mobile Image (restricted to this div) */}
         <img
-          src="/profilemobile.png"
+          src={`${process.env.PUBLIC_URL}/images/profilemobile.png`}
           alt="Profile"
           className="block md:hidden w-[70%] max-w-[400px] absolute"
         />
@@ -80,7 +80,7 @@ function Home() {
       {/* Desktop Image (centered between both divs) */}
       <div className="absolute top-1/4 md:left-[50%] lg:left-[55%]">
         <img
-          src="/profile.png"
+          src={`${process.env.PUBLIC_URL}/images/profile.png`}
           alt="Profile"
           className="hidden md:block max-w-[500px]"
         />

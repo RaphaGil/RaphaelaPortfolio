@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className="relative h-[400px] text-center flex flex-col items-center p-12 gap-10">
       <div> 
-      <img src="/aboutmepic.png" alt="Skills" className="absolute inset-0  w-2/3 h-2/3 object-contain -z-10" />
+      <img src={`${process.env.PUBLIC_URL}/images/aboutmepic.png`} alt="Skills" className="absolute inset-0  w-2/3 h-2/3 object-contain -z-10" />
       <h2 className="text-3xl font-bold text-[#890465] mb-8">Contact</h2>
     <p className='font-thin'>Got a question or proposal, or just want to say hello? Go ahead. Send me an email or contact me on social media.</p>
     </div>

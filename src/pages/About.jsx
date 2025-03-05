@@ -18,12 +18,12 @@ function About() {
 
         {/* Skills Image */}
         <div className="bg-white p-6  flex justify-center hidden md:block">
-          <img src="/skillspic.png" alt="Skills" className="w-full max-w-xs h-auto object-cover" />
+          <img src={`${process.env.PUBLIC_URL}/images/skillspic.png`} alt="Skills" className="w-full max-w-xs h-auto object-cover" />
         </div>
 
         {/* About Me Image */}
         <div className="bg-white p-6  flex justify-center">
-          <img src="/aboutmepic.png" alt="About Me" className="hidden md:block w-full max-w-xs h-auto object-cover" />
+          <img src={`${process.env.PUBLIC_URL}/images/aboutmepic.png`} alt="About Me" className="hidden md:block w-full max-w-xs h-auto object-cover" />
         </div>
 
         {/* Skills Section */}
