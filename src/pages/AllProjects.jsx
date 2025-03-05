@@ -8,7 +8,7 @@ function AllProjects() {
       <h2 className="text-3xl font-bold text-[#890465] mb-8 mt-32">All Projects</h2>
 
       <div className="w-full flex justify-center">
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-6 w-full p-8 md:p-6 mr-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:gap-6 w-full p-8 md:p-6 mr-4">
 
           {projects.map((project) => (
             
