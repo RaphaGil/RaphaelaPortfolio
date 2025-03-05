@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import Nav from './components/Nav';
 import Home from "./components/Home";  // Main Home Page
 import About from './pages/About';  // About Section
