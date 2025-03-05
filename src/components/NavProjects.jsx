@@ -5,13 +5,13 @@ function Nav() {
   return (
     <div className="flex justify-between items-center w-full absolute ">
       {/* Left side - Logo */}
-      <div className="pl-4">
-        <img src={`${process.env.PUBLIC_URL}/images/logoprojects.png`} className='w-1/2 sm:w-1/3 md:1/2' />
+      <div className="pl-4 pt-4">
+        <img src={`${process.env.PUBLIC_URL}/images/logoprojects.png`} className='w-2/3 md:1/2' />
       </div>
 
       {/* Right side - Navigation */}
-      <div className="pr-4">
-        <ul className="flex space-x-6">
+      <div className="pr-4 pt-4">
+        <ul className="flex space-x-4">
           <li>
             <Link to="/" className="text-[#890465] font-thin text-sm">HOME</Link>
           </li>
