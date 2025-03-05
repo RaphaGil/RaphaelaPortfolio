@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react"; // Import icons
+import { Link } from "react-router-dom";  // Import Link
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,8 +26,8 @@ function Nav() {
 
       {/* Mobile & Large Screen Navigation (Hidden by Default) */}
       {isOpen && (
-        <div className="absolute top-6 right-0 w-56 bg-white bg-opacity-10 shadow-md  ">
-          <ul className="flex flex-col space-y-4 p-4 font-thin text-wtext-[#A1FA8F] md:text-[#890465]">
+        <div className="absolute top-6 right-0 w-56 bg-white bg-opacity-10 shadow-md">
+          <ul className="flex flex-col space-y-4 p-4 font-thin text-[#A1FA8F] md:text-[#890465]">
             {["HOME", "ABOUT", "PROJECTS", "CONTACT"].map((item, index) => {
               // Custom paths for "HOME" and "PROJECTS"
               let path = `/${item.toLowerCase()}`;
@@ -35,13 +36,13 @@ function Nav() {
 
               return (
                 <li key={index}>
-                  <a
-                    href={path}
+                  <Link
+                    to={path}
                     className="block text-[#A1FA8F] md:text-[#890465] text-sm hover:text-[#590465] px-4 py-2"
                     onClick={() => setIsOpen(false)}
                   >
                     {item}
-                  </a>
+                  </Link>
                 </li>
               );
             })}

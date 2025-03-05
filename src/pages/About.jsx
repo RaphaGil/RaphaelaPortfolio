@@ -32,7 +32,7 @@ function About() {
        
           <ul className="flex flex-wrap gap-2 mb-10">
             {["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Responsive Design", "SEO", "Terminal"].map((skill) => (
-              <li key={skill} className=" px-3 py-1 rounded-md text-sm text-black">
+              <li key={skill} className=" md:px-3 py-1 rounded-md text-sm text-black">
                 {skill}
               </li>
             ))}
@@ -41,7 +41,7 @@ function About() {
   href="/RaphaelaGil_FrontendWebDeveloper.pdf" // Replace with your actual CV file path
   target="_blank"
   rel="noopener noreferrer"
-  className=" mx-2 border-2 p-2 round-2 border-[#890465]  bg-[#890465] text-white hover:text-[#890465] hover:bg-white"
+  className=" mx-2 border-2 rounded-md p-2 round-2 border-[#890465]  bg-[#890465] text-white hover:text-[#890465] hover:bg-white"
 > My CV
 </a>
           

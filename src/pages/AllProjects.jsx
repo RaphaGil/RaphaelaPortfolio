@@ -12,7 +12,7 @@ function AllProjects() {
 
           {projects.map((project) => (
             
-            <div key={project.bid}   className=" p-10 rounded-lg text-white text-left transform transition-all duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:translate-y-2  hover:bg-[#A1FA8F] hover:bg-opacity-20">
+            <div key={project.bid}   className=" p-10 md:m-20 rounded-lg text-white text-left transform transition-all duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:translate-y-2  hover:bg-[#A1FA8F] hover:bg-opacity-20">
               
               {/* Title with Image Next to It */}
               <div className="flex items-center space-x-4 ">
