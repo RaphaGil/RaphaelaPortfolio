@@ -60,7 +60,7 @@ function Home() {
             <Mail size={30} strokeWidth={0.4} /> {/* Thinner icon */}
           </a>
           <a
-  href="/RaphaelaGil_FrontendWebDeveloper.pdf" // Replace with your actual CV file path
+    href={`${process.env.PUBLIC_URL}/RaphaelaGil_FrontendWebDeveloper.pdf`}// Replace with your actual CV file path
   target="_blank"
   rel="noopener noreferrer"
   className="text-[#890465] mx-2"
