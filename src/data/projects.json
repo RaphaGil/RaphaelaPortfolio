@@ -2,11 +2,11 @@
   {
     "id": 1,
     "title": "STELLAR FUTURE",
-    "description": "Say goodbye to food waste and hello to Foodie - your ultimate food app for using what you already have in your pantry!",
+    "description": "At Stellar Futures, they believe in building technology solutions that pave the way to a better climate-aware future.",
     "image": "https://github.com/user-attachments/assets/6e084488-b542-4b80-8da0-f5ef4e508400",
     "deployedLink": "https://stellarfutures.ca",
     "repoLink": "https://github.com/RaphaGil/stellarfutures-website-tailwindcss-main",
-    "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Next.js", "Tailwind"]
+    "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Next.js", "Tailwind", "UX/UI Design"]
   },
   {
     "id": 2,

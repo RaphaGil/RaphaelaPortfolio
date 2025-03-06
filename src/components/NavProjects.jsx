@@ -6,7 +6,7 @@ function Nav() {
     <div className="flex justify-between items-center w-full absolute ">
       {/* Left side - Logo */}
       <div className="pl-4 pt-4">
-        <img src={`${process.env.PUBLIC_URL}/images/logoprojects.png`} className='w-2/3 md:1/2' />
+        <img src={`${process.env.PUBLIC_URL}/images/logoprojects.png`} className='w-2/4 sm:w-1/3' />
       </div>
 
       {/* Right side - Navigation */}
