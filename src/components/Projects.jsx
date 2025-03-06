@@ -11,7 +11,7 @@ function Projects() {
       <h2 className="text-3xl font-bold text-[#A1FA8F] mb-8">Projects</h2>
 
       <div className="w-full lg:w-4/5 flex justify-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full md:p-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 w-full ">
           {displayedProjects.map((project) => (
             <div key={project.id} className="bg-white/10 p-6 rounded-lg shadow-md text-white text-left">
               {/* Title with Image Next to It */}

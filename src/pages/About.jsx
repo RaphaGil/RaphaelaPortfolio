@@ -7,13 +7,14 @@ function About() {
         {/* About Me Section */}
         <div className="bg-white p-6 ">
           <h2 className="text-[#890465] text-3xl font-bold pb-4">About Me</h2>
-          <p className="text-black">
-            I'm probably not the typical designer positioned behind an
-            Illustrator artboard adjusting pixels, but I design. Immersed in
-            stylesheets tweaking font sizes and contemplating layouts is where
-            you'll find me (~_^). I'm committed to creating fluent user
-            experiences while staying fashionable.
-          </p>
+          <p className="mb-4">
+          With a strong foundation in problem-solving and communication, I have always enjoyed refining processes through innovative ideas. After earning my certification as a Frontend Web Developer through edX—and completing a year-long internship working on real-world projects—I discovered that my passion for coding began with that very first "Hello World."
+</p>
+<p className="mb-4">
+Now, living in London, I’m excited to apply my attention to detail, creativity, and user-driven mindset to build accessible and engaging web applications. I am passionate about creating intuitive and enjoyable user experiences, always keeping the customer in mind. I thrive in collaborative environments, constantly learning, and contributing new ideas with my colleagues to enhance the development process.
+</p>
+
+
         </div>
 
         {/* Skills Image */}

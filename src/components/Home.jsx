@@ -16,14 +16,14 @@ function Home() {
           <div className="flex justify-between mt-10">
             <div className="text-[#A1FA8F] text-sm md:w-[45%] mr-6">
               <h4>
-                Highly skilled at progressive enhancement, design systems & UI
-                engineering.
+              Passionate about accessible web design, I’m learning to master progressive enhancement, intuitive design systems, and modern UI techniques.
+
               </h4>
             </div>
             <div className="text-[#A1FA8F] text-sm md:w-[45%]">
               <h4>
-                Proven experience building successful products for clients
-                across several countries.
+              Building real-world projects that deliver value, I’m eager to contribute to client success and continuously improve my skills.
+
               </h4>
             </div>
           </div>
