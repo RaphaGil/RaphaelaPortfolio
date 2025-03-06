@@ -69,14 +69,14 @@ function About() {
             ))}
           </ul>
           <a
-           href={`${process.env.PUBLIC_URL}/RaphaelaGil_FrontendWebDeveloper.pdf`} // Replace with your actual CV file path
-            target="_blank"
-            rel="noopener noreferrer"
-            className=" mx-2 border-2 rounded-md p-2 round-2 border-[#890465]  bg-[#890465] text-white hover:text-[#890465] hover:bg-white"
-          >
-            {" "}
-            My CV
-          </a>
+  href={`${process.env.PUBLIC_URL}/RaphaelaGil_FrontendWebDeveloper.pdf`} // Use absolute path from public folder
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mx-2 border-2 rounded-md p-2 border-[#890465] bg-[#890465] text-white hover:text-[#890465] hover:bg-white"
+>
+  My CV
+</a>
+
         </div>
       </div>
     </div>
