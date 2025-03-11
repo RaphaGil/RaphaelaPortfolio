@@ -49,8 +49,7 @@ function Home() {
               }`}
             >
               <h4>
-                Passionate about accessible web design, I’m learning to master progressive
-                enhancement, intuitive design systems, and modern UI techniques.
+              Passionate about crafting intuitive and engaging user experiences, I specialize in building modern, responsive web applications with clean, efficient code and a user-centric design approach.
               </h4>
             </div>
 
@@ -60,8 +59,7 @@ function Home() {
               }`}
             >
               <h4>
-                Building real-world projects that deliver value, I’m eager to contribute to client
-                success and continuously improve my skills.
+              I have experience working on real-world projects, including a digital triplet flooding alert AI, and thrive in collaborative environments where I can continuously learn and contribute innovative solutions.
               </h4>
             </div>
           </div>

@@ -44,6 +44,7 @@ function AllProjects() {
                   src={project.image}
                   className="w-full h-58 object-cover opacity-90 transition-opacity duration-500 hover:opacity-100"
                   alt={project.title}
+                  loading="lazy"
                 />
 
                 <div className="p-6">

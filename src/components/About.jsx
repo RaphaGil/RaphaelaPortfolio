@@ -1,17 +1,36 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
-function About({ id }) {
+function About() {
   const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef(null); // Reference to the section
 
   useEffect(() => {
-    // Trigger the animation after the component mounts
-    setTimeout(() => {
-      setIsVisible(true);
-    }, 200);
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true); // Activate animation when section appears
+        }
+      },
+      { threshold: 0.3 } // Trigger when 30% of the section is visible
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
   }, []);
 
   return (
-    <div id="about" className="w-full min-h-screen flex flex-col items-center justify-center p-6 md:p-12">
+    <div
+      id="about"
+      ref={sectionRef} // Attach the reference
+      className="w-full min-h-screen flex flex-col items-center justify-center p-6 md:p-12"
+    >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 w-full max-w-5xl">
         {/* About Me Section */}
         <div className="bg-white p-6">
@@ -84,7 +103,7 @@ function About({ id }) {
             ].map((skill, index) => (
               <li
                 key={skill}
-                className={`md:px-3 py-1 rounded-md text-sm text-black transition-all duration-1000 ease-out transform delay-${index * 100 + 1200} ${
+                className={`md:px-3 py-1 rounded-md text-sm text-black transition-all duration-1000 ease-out transform  ${
                   isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
                 }`}
               >
