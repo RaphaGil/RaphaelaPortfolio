@@ -18,3 +18,7 @@ h1{
 h4{
   font-size:12px
 }
+
+html {
+  scroll-behavior: smooth;
+}

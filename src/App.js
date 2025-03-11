@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Nav from './components/Nav';
-import Home from "./components/Home";  // Main Home Page
-import About from './pages/About';  // About Section
+import Home from "./components/Hero";  // Main Home Page
+import About from './components/About';  // About Section
 import Projects from "./components/Projects";  // Projects Preview
 import AllProjects from "./pages/AllProjects";  // All Projects Page
 import Footer from './components/Footer';  // Footer
@@ -21,9 +21,9 @@ function App() {
             <div>
               <Nav /> 
               <Home />  {/* Home Section */}
-              <About />  {/* About Section */}
-              <Projects />  {/* Projects Preview Section */}
-              <Contact />
+              <About id="about" />  {/* About Section */}
+              <Projects id="projects" />  {/* Projects Preview Section */}
+              <Contact id="contact" />
             </div>
           }
         />

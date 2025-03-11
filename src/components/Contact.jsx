@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from "lucide-react"; // Import icons
 
 function Contact() {
   return (
-    <div className="relative h-[400px] text-center flex flex-col items-center p-12 gap-10">
+    <div  id="contact" className="relative h-[400px] text-center flex flex-col items-center p-12 gap-10">
       <div> 
       <img src={`${process.env.PUBLIC_URL}/images/aboutmepic.png`} alt="Skills" className="absolute inset-0  w-2/3 h-2/3 object-contain -z-10" />
       <h2 className="text-3xl font-bold text-[#890465] mb-8">Contact</h2>

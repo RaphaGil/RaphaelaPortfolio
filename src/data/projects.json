@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "title": "THE HAPPY CASE",
+    "description": "Coming soon..",
+    "image": "https://github.com/user-attachments/assets/558c6945-2d3c-438b-9e20-1cc89be54249",
+    "deployedLink": "https://stellarfutures.ca",
+    "repoLink": "https://github.com/RaphaGil/stellarfutures-website-tailwindcss-main",
+    "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Next.js", "Tailwind", "UX/UI Design"]
+  },
+  {
+    "id": 2,
     "title": "STELLAR FUTURE",
     "description": "At Stellar Futures, they believe in building technology solutions that pave the way to a better climate-aware future.",
     "image": "https://github.com/user-attachments/assets/6e084488-b542-4b80-8da0-f5ef4e508400",
@@ -9,7 +18,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Next.js", "Tailwind", "UX/UI Design"]
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "TRAIAS GIL",
     "description": "Traias Gil is an e-commerce platform dedicated to showcasing and selling handmade leather belts and horse accessories of exceptional quality.",
     "image": "https://github.com/user-attachments/assets/ed6790ca-780d-49c2-8a6e-598b5d4262e8",
@@ -18,7 +27,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Tailwind"]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "TRENDOO",
     "description": "Trendoo was invented as a trendy, avant garde fashion label known for its innovative designs and cutting-edge styles.",
     "image": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/38d7458a-3d19-4d57-8e24-3566210c64d9",
@@ -27,7 +36,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Vite", "Axios", "Node.js"]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "FOOD RECIPE APP",
     "description": "Say goodbye to food waste and hello to Foodie - your ultimate food app for using what you already have in your pantry!",
     "image": "https://github.com/RaphaGil/Portfolio-React/assets/128820385/f8b6fcf2-0b18-4e2b-a952-31b6264076f7",
@@ -36,7 +45,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "jQuery", "Bootstrap", "APIs"]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "PLANNER APP",
     "description": "A simple planner app that allows users to save events and tasks for the day or week.",
     "image": "https://github.com/user-attachments/assets/8598f064-5bc8-4f37-a42f-fe6c69aec1a9",
@@ -45,7 +54,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "Git", "GitHub"]
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "QUIZ GAME",
     "description": "The quiz game comprises five questions centered around general knowledge.",
     "image": "https://github.com/RaphaGil/Portfolio-React/assets/128820385/17ddd54a-0667-4a3c-905c-7195182f32b8",
@@ -54,7 +63,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git", "GitHub"]
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "WEATHER DASHBOARD",
     "description": "A comprehensive weather forecast application that displays both the current weather and a 5-day forecast.",
     "image": "https://github.com/RaphaGil/Portfolio-React/assets/128820385/6e3fcbfa-8db9-4aa4-aa30-34bc02129ba8",
@@ -63,7 +72,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git", "GitHub", "APIs"]
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "EMPLOYEE INFORMATION",
     "description": " This application will gather information about employees on a software engineering team and generate an HTML webpage displaying summaries for each person.",
     "image": "https://github.com/RaphaGil/Employee-Information/assets/128820385/23e7d786-9c86-4908-9639-fbea21dfd436",
@@ -72,7 +81,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Git", "GitHub", "Jest"]
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "BOOTSTRAP PORTFOLIO",
     "description": "Within this project, I've extensively explored the Bootstrap framework, meticulously crafting a responsive design adaptable across laptops and mobile devices.",
     "image": "https://github.com/RaphaGil/React/assets/128820385/b5309673-b4ce-4a70-8f1a-8c3fd41433c9",
@@ -81,7 +90,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "Git", "GitHub"]
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "TIC-TAC-TOE",
     "description": "Tic-Tac-Toe is a classic paper-and-pencil game that's been enjoyed by people of all ages for generations.",
     "image": "https://github.com/RaphaGil/Portfolio-React/assets/128820385/a8dc5449-ae4b-485b-99a9-45d7854a3623",
@@ -90,7 +99,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "Vite", "Git", "GitHub"]
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "INVESTMENT CALCULATOR",
     "description": "The app provides tools and features that enable users to track their investment performance, analyze market trends, and make informed decisions to achieve their financial goals.",
     "image": "https://github.com/RaphaGil/Investment-Calculator/assets/128820385/ae5f23e1-f208-4721-aab7-179371fe041b",

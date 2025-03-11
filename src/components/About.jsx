@@ -1,8 +1,8 @@
 import React from "react";
 
-function About() {
+function About ({ id })  {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-center p-6 md:p-12">
+    <div id="about" className="w-full min-h-screen flex flex-col items-center justify-center p-6 md:p-12">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 w-full max-w-5xl">
         {/* About Me Section */}
         <div className="bg-white p-6 ">
@@ -50,14 +50,14 @@ function About() {
 
           <ul className="flex flex-wrap gap-2 mb-10">
             {[
-              "HTML",
-              "CSS",
-              "JavaScript",
-              "React",
-              "Git",
-              "GitHub",
-              "Responsive Design",
-              "SEO",
+              "HTML |",
+              "CSS |",
+              "JavaScript |",
+              "React |",
+              "Git |",
+              "GitHub |",
+              "Responsive Design |",
+              "SEO |",
               "Terminal",
             ].map((skill) => (
               <li

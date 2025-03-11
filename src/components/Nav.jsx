@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, X } from "lucide-react"; // Import icons
+import { Menu, X } from "lucide-react"; 
 import { Link } from "react-router-dom";  // Import Link
 
 function Nav() {
@@ -16,7 +16,7 @@ function Nav() {
         />
       </div>
 
-      {/* Menu Button - Always Visible */}
+      {/* Menu Button */}
       <button
         className="lg:flex text-[#A1FA8F] md:text-[#890465] focus:outline-none p-4 z-10"
         onClick={() => setIsOpen(!isOpen)}
@@ -24,25 +24,35 @@ function Nav() {
         {isOpen ? <X size={30} strokeWidth={0.4} /> : <Menu size={30} strokeWidth={0.6} />}
       </button>
 
-      {/* Mobile & Large Screen Navigation (Hidden by Default) */}
+      {/* Mobile & Large Screen Navigation */}
       {isOpen && (
         <div className="absolute top-6 right-0 w-56 bg-white bg-opacity-10 shadow-md">
           <ul className="flex flex-col space-y-4 p-4 font-thin text-[#A1FA8F] md:text-[#890465]">
-            {["HOME", "ABOUT", "PROJECTS", "CONTACT"].map((item, index) => {
-              // Custom paths for "HOME" and "PROJECTS"
-              let path = `/${item.toLowerCase()}`;
-              if (item === "HOME") path = "/"; // Set HOME to "/"
-              if (item === "PROJECTS") path = "/allprojects"; // Set PROJECTS to "/allprojects"
+            {[ "ABOUT", "PROJECTS", "CONTACT"].map((item, index) => {
+              let path = "#"; // Default to an anchor
+
+              if (item === "ABOUT") path = "#about";
+              if (item === "CONTACT") path = "#contact";
 
               return (
                 <li key={index}>
-                  <Link
-                    to={path}
-                    className="block text-[#A1FA8F] md:text-[#890465] text-sm hover:text-[#590465] px-4 py-2"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    {item}
-                  </Link>
+                  {item === "PROJECTS" ? (
+                    <Link
+                      to="/allprojects"  // Use Link for routing
+                      className="block text-[#A1FA8F] md:text-[#890465] text-sm hover:text-[#590465] px-4 py-2"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item}
+                    </Link>
+                  ) : (
+                    <a
+                      href={path}
+                      className="block text-[#A1FA8F] md:text-[#890465] text-sm hover:text-[#590465] px-4 py-2"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item}
+                    </a>
+                  )}
                 </li>
               );
             })}

@@ -8,15 +8,15 @@ function AllProjects() {
       <h2 className="text-3xl font-bold text-[#890465] mb-8 mt-32">All Projects</h2>
       <img src={`${process.env.PUBLIC_URL}/images/aboutmepic.png`} alt="About Me" className="absolute  " />
 
-      <div className="w-full flex justify-center">
-      <div className="grid grid-cols-1 lg:grid-cols-2  md:gap-4 w-full   bg-[#890465] ">
+      <div className="flex justify-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-full  ">
 
           {projects.map((project) => (
             
-            <div key={project.bid}   className=" p-8 md:m-20 rounded-lg text-white text-left transform transition-all duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:translate-y-2  mb-10">
+            <div key={project.bid}   className=" p-12 m-10 md:m-20 rounded-lg text-white text-left transform transition-all duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:translate-y-2  mb-10 bg-[#890465] hover:bg-[#890465]/80">
               
               {/* Title with Image Next to It */}
-              <div className="flex-row items-center md:space-x-4 ">
+              <div className="flex-row items-center md:space-x-4  ">
               <div className="mb-4 ">
                 <img src={project.image}></img>
               </div>
@@ -33,12 +33,12 @@ function AllProjects() {
               
           
               </div>
-              <div className="mt-6">
+              <div className="mt-6 ">
                 <a
                   href={project.deployedLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-[#A1FA8F] px-4 py-2 rounded-lg shadow-md transition-transform hover:scale-105   p-2 text-sm text-[#890465]"
+                  className="mt-6 px-6 py-3 bg-[#A1FA8F] text-black rounded-md hover:opacity-90 transition text-thin text-sm "
                 >
                   View Project
                 </a>
@@ -46,7 +46,7 @@ function AllProjects() {
               <p className="font-thin text-gray-200 mt-4">{project.description}</p>
               <ul className="flex flex-wrap gap-2 mt-4">
                 {project.technologies.map((tech) => (
-                  <li key={tech} className="bg-[#890465] text-white opacity-50  px-3 py-1 rounded-md text-sm">
+                  <li key={tech} className="bg-[#890465] text-white opacity-90 px-3 py-1 rounded-md text-sm">
                     {tech}
                   </li>
                 ))}
