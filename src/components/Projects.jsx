@@ -48,8 +48,8 @@ function Projects() {
                 isVisible
                   ? "opacity-100 translate-x-0"
                   : index % 2 === 0
-                  ? "opacity-0 -translate-x-20"
-                  : "opacity-0 translate-x-20"
+                  ? "opacity-0 -translate-x-10"
+                  : "opacity-0 translate-x-10"
               }`}
             >
               <h3 className="font-bold text-2xl pb-4">
@@ -68,7 +68,7 @@ function Projects() {
         className="mt-6 px-6 py-3 font-thin bg-[#A1FA8F] text-black rounded-md hover:opacity-80 transition-all duration-1000 ease-out transform delay-1000"
         style={{
           opacity: isVisible ? 1 : 0,
-          transform: isVisible ? "translateY(0)" : "translateY(40px)",
+          transform: isVisible ? "translateY(0)" : "translateY(0px)",
         }}
       >
         See More Projects
