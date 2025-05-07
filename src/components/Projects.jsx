@@ -48,8 +48,8 @@ function Projects() {
                 isVisible
                   ? "opacity-100 translate-x-0"
                   : index % 2 === 0
-                  ? "opacity-0 -translate-x-40"
-                  : "opacity-0 translate-x-40"
+                  ? "opacity-0 -translate-x-20"
+                  : "opacity-0 translate-x-20"
               }`}
             >
               <h3 className="font-bold text-2xl pb-4">
