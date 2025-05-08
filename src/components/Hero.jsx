@@ -96,7 +96,7 @@ function Home() {
           </a>
           <a
             href={`${process.env.PUBLIC_URL}/RaphaelaGil_FrontendDeveloper.pdf`}
-            target="_blank"
+            download
             rel="noopener noreferrer"
             className="text-[#890465] mx-2"
           >
