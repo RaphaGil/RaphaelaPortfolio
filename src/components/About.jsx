@@ -98,7 +98,7 @@ function About() {
               " Boostrap |",
               " Tailwind |",
               " jQuery |",
-              " Node.jx |", 
+              " Node.js |", 
               " APIs |",
               " Git |",
               " GitHub |",
