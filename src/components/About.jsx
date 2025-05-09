@@ -91,15 +91,21 @@ function About() {
 
           <ul className="flex flex-wrap  mb-10">
             {[
-              "HTML |",
-              "CSS |",
-              "JavaScript |",
-              "React |",
-              "Git |",
-              "GitHub |",
-              "Responsive Design |",
-              "SEO |",
-              "Terminal",
+              " HTML |",
+              " CSS |",
+              " JavaScript |",
+              " React |",
+              " Boostrap |",
+              " Tailwind |",
+              " jQuery |",
+              " Node.jx |", 
+              " APIs |",
+              " Git |",
+              " GitHub |",
+              " Responsive Design |",
+              " Figma |",
+              " SEO |",
+              " Terminal",
             ].map((skill, index) => (
               <li
                 key={skill}
