@@ -59,7 +59,7 @@ function Home() {
               }`}
             >
               <h4>
-              I have experience working on real-world projects, including a digital triplet flooding alert AI, and thrive in collaborative environments where I can continuously learn and contribute innovative solutions.
+              I’m driven by curiosity and a constant desire to learn, continuously working to sharpen my skills and take on new challenges. Personal and professional growth are core to my mindset.
               </h4>
             </div>
           </div>

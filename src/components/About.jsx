@@ -53,7 +53,7 @@ function About() {
               isVisible ? "opacity-100" : "opacity-0"
             }`}
           >
-            Now, living in London, I’m excited to apply my attention to detail, creativity, and user-driven mindset to build accessible and engaging web applications. I am passionate about creating intuitive and enjoyable user experiences, always keeping the customer in mind. I thrive in collaborative environments, constantly learning, and contributing new ideas with my colleagues to enhance the development process.
+            I’m excited to apply my attention to detail, creativity, and user-driven mindset to build accessible and engaging web applications. I am passionate about creating intuitive and enjoyable user experiences, always keeping the customer in mind. I thrive in collaborative environments, constantly learning, and contributing new ideas with my colleagues to enhance the development process.
           </p>
         </div>
 
