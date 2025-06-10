@@ -15,7 +15,7 @@ function Footer() {
         <div className="text-left w-full md:w-2/4 mr-6">
           <h3 className="text-gray-800 md:text-xl font-bold">RAPHAELA GIL</h3>
           <p className="text-gray-800 text-sm md:text-mdfont-thin mt-2">
-            A Frontend focused Web Developer building the Frontend of Websites
+            A Frontend focused Developer building the Frontend of Websites
             and Web Applications that leads to the success of the overall
             product.
           </p>
