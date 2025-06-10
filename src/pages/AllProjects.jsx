@@ -38,7 +38,7 @@ function AllProjects() {
               style={{ transitionDelay: `${index * 200}ms` }} // Staggered slide-in animation
             >
               {/* Card with Floating Hover Effect */}
-              <div className="relative bg-[#890465] rounded-lg shadow-lg overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-3 lg:h-[600px]">
+              <div className="relative bg-[#890465] rounded-lg shadow-lg overflow-hidden transition-all duration-500 hover:shadow-2xl lg:h-[600px]">
                 {/* Project Image */}
                 <img
                   src={project.image}
