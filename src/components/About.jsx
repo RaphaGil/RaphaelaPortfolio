@@ -95,6 +95,7 @@ function About() {
               " CSS |",
               " JavaScript |",
               " React |",
+              "Next.js",
               " Boostrap |",
               " Tailwind |",
               " jQuery |",
@@ -119,7 +120,7 @@ function About() {
           </ul>
 
           <a
-            href="/RaphaelaGil_FrontendDeveloper.pdf"
+            href="/RaphaelaGil_FrontendEngineer.pdf"
             download
             className="mx-2 border-2 rounded-md p-2 border-[#890465] bg-[#890465] text-white hover:text-[#890465] hover:bg-white transition-all duration-1000 ease-out transform delay-1500"
             style={{
