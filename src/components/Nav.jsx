@@ -8,7 +8,7 @@ function Nav() {
   return (
     <div className="p-2 flex justify-between items-center w-full absolute z-10">
       {/* Left side - Logo */}
-      <div className="pl-4">
+      <div className="md:pl-4">
         <img
           src={`${process.env.PUBLIC_URL}/images/logo.png`}
           className="w-[25%] sm:w-[20%] md:w-[22%] lg:w-[24%] xl:w-[26%] max-w-[250px] min-w-[80px]"
@@ -39,7 +39,7 @@ function Nav() {
                   {item === "PROJECTS" ? (
                     <Link
                       to="/allprojects"  // Use Link for routing
-                      className="block text-[#A1FA8F] md:text-[#890465] text-sm hover:text-[#590465] px-4 py-2"
+                      className="block text-[#A1FA8F] md:text-[#890465] text-sm hover:underline px-4 py-2"
                       onClick={() => setIsOpen(false)}
                     >
                       {item}
@@ -47,7 +47,7 @@ function Nav() {
                   ) : (
                     <a
                       href={path}
-                      className="block text-[#A1FA8F] md:text-[#890465] text-sm hover:text-[#590465] px-4 py-2"
+                      className="block text-[#A1FA8F] md:text-[#890465] text-sm hover:underline px-4 py-2"
                       onClick={() => setIsOpen(false)}
                     >
                       {item}
