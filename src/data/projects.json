@@ -12,7 +12,7 @@
     "id": 2,
     "title": "STELLAR FUTURE",
     "description": "At Stellar Futures, they believe in building technology solutions that pave the way to a better climate-aware future.",
-    "image": "https://github.com/user-attachments/assets/6e084488-b542-4b80-8da0-f5ef4e508400",
+    "image": "./images/stellarfuture.png",
     "deployedLink": "https://stellarfutures.ca",
     "repoLink": "https://github.com/RaphaGil/stellarfutures-website-tailwindcss-main",
     "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Next.js", "Tailwind", "UX/UI Design"]
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "TRAIAS GIL",
     "description": "Traias Gil is an e-commerce platform dedicated to showcasing and selling handmade leather belts and horse accessories of exceptional quality.",
-    "image": "https://github.com/user-attachments/assets/ed6790ca-780d-49c2-8a6e-598b5d4262e8",
+    "image": "./images/traiasgil.png",
     "deployedLink": "https://raphagil.github.io/TraiasGil/",
     "repoLink": "https://github.com/RaphaGil/Traias-Gil",
     "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Tailwind"]

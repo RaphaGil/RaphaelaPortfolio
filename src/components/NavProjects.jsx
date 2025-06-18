@@ -7,7 +7,7 @@ function Nav() {
       {/* Left side - Logo */}
       <div className="pl-4">
         <Link to="/" className="text-[#890465] font-thin text-sm">
-        <img src={`${process.env.PUBLIC_URL}/images/logoprojects.png`} className=' w-[25%] ml-4' />
+        <img src={`${process.env.PUBLIC_URL}/images/logoprojects.png`} className=' w-[25%] ml-4' alt='Logo' />
         </Link>
       </div>
 
