@@ -3,7 +3,7 @@
     "id": 1,
     "title": "THE HAPPY CASE",
     "description": "Coming soon..",
-    "image": "./images/thehappycase.png",
+    "image": "images/thehappycase.png",
     "deployedLink": "https://raphagil.github.io/TheHappyCase/",
     "repoLink": "https://github.com/RaphaGil/TheHappyCase",
     "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Next.js", "Tailwind", "UX/UI Design"]

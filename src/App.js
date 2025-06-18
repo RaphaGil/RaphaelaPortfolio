@@ -1,38 +1,41 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from './components/Nav';
-import Hero from "./components/Hero";  // Main Home Page
-import About from './components/About';  // About Section
-import Projects from "./components/Projects";  // Projects Preview
-import AllProjects from "./pages/AllProjects";  // All Projects Page
-import Footer from './components/Footer';  // Footer
-import Contact from './components/Contact.jsx'
-
+import Hero from "./components/Hero";
+import About from './components/About';
+import Projects from "./components/Projects";
+import AllProjects from "./pages/AllProjects";
+import Footer from './components/Footer';
+import Contact from './components/Contact.jsx';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-     {/* Navigation bar should always be visible */}
-      
+    <Router>
+      {/* Navigation bar should always be visible */}
       <Routes>
-        {/* Main page (Home) includes About and Projects */}
         <Route 
           path="/" 
           element={
-            <div>
-              <Nav /> 
-              <Hero />  
-              <About id="about" />  
-              <Projects id="projects" />  
+            <>
+              <Nav />
+              <Hero />
+              <About id="about" />
+              <Projects id="projects" />
               <Contact id="contact" />
-            </div>
-          }
+              <Footer />
+            </>
+          } 
         />
 
-        {/* Route for All Projects Page */}
-        <Route path="/allprojects" element={<AllProjects />} />
+        <Route 
+          path="/allprojects" 
+          element={
+            <>
+              <AllProjects />
+              <Footer />
+            </>
+          } 
+        />
       </Routes>
-
-      <Footer />  {/* Footer should appear on all pages */}
     </Router>
   );
 }

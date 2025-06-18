@@ -4,18 +4,18 @@ const ProjectCard = ({ project, index, isVisible }) => {
   return (
     <div
       key={project.bid}
-      className={`p-10 m-4 rounded-lg text-white text-left transform transition-all duration-700 ease-out ${
+      className={`md:p-10 m-4 rounded-lg text-white text-left transform transition-all duration-700 ease-out ${
         isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-20"
       }`}
       style={{ transitionDelay: `${index * 200}ms` }}
     >
-      <div className="relative bg-[#890465] rounded-lg shadow-lg overflow-hidden transition-all duration-500 hover:shadow-2xl lg:h-[600px]">
-        <img
+      <div className="relative bg-[#890465] rounded-lg shadow-lg overflow-hidden transition-all duration-500 hover:shadow-2xl lg:h-[300px]">
+        {/* <img
           src={project.image}
           className="w-full h-58 object-cover opacity-90 transition-opacity duration-500 hover:opacity-100"
           alt={project.title}
           loading="lazy"
-        />
+        /> */}
         <div className="p-6">
           <h3 className="font-bold text-2xl pb-4 text-white">
             <a
