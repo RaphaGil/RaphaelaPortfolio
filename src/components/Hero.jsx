@@ -95,7 +95,7 @@ function Home() {
             <Mail size={30} strokeWidth={0.4} />
           </a>
           <a
-            href="/RaphaelaGil_FrontendDeveloper.pdf"
+             href={`${process.env.PUBLIC_URL}/RaphaelaGil_FrontendEngineer.pdf`}
             download
             rel="noopener noreferrer"
             className="text-[#890465] mx-2"
