@@ -30,7 +30,7 @@ To set up and view this project locally, follow these simple steps:
 
 ## Screenshots
 ### Dashboard Overview
-![Raphaela Portfolio]([https://github.com/RaphaGil/Quiz-Game/assets/128820385/76c1ce31-622f-417f-8d7b-fb180c0f026f](https://github.com/user-attachments/assets/f0e42969-88c8-4295-b1da-8ea730721596))
+![Raphaela Portfolio](https://github.com/user-attachments/assets/9f4b0932-d358-4bea-9713-8325379b5a02)
 *Caption: Overview of the project's main webpage.*
 
 
@@ -57,6 +57,6 @@ Developed by Raphaela Gil to showcase my work as a frontend developer.
 ## License
 This project is licensed under the MIT License. The MIT License is an open-source license widely used for software projects. It is known for its permissive nature, allowing users to freely use, modify, distribute, and sublicense the software without significant legal restrictions.
 
-[Raphaela _ Portfolio](https://raphagil.github.io/RaphaelaPortofolio/) - Raphaela Gil 
+[Raphaela _ Portfolio](https://raphagil.github.io/RaphaelaPortfolio/) - Raphaela Gil 
 ## Contact Information
 If you're interested in sharing ideas, experiences, or collaborating on projects, please feel free to get in touch via email at raphaela.gil@yahoo.com or [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/raphaela-do-amaral-gil-0a9bb945/ ). You can also check my github profile at [![RaphaGil](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/RaphaGil).
