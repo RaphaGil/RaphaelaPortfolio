@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This repository contains my personal frontend development portfolio, showcasing selected projects that highlight my skills in building responsive, user-friendly, and visually appealing web applications.
 
-## Available Scripts
+## Description
+My portfolio is designed to present my journey and expertise as a Frontend Web Developer. It features a collection of projects where I apply HTML, CSS, JavaScript, TypeScript, React, and TailwindCSS to create interactive applications and clean, modern interfaces.
 
-In the project directory, you can run:
+The goal of this portfolio is to demonstrate:
+My ability to design and implement intuitive user experiences.
+My technical knowledge of modern frontend frameworks and tools.
+My continuous learning through practical, hands-on projects.
+You can explore my projects directly in the browser through live demos, as well as browse the source code to see my approach to problem-solving, component design, and responsive layouts.
 
-### `npm start`
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+To set up and view this project locally, follow these simple steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine:
+ git clone https://github.com/RaphaGil/RaphaelaPortfolio
+3. Open the project folder in your preferred text editor.
+4. Launch the index.html file in a web browser.
 
-### `npm test`
+## Screenshots
+### Dashboard Overview
+![Raphaela Quiz](https://github.com/RaphaGil/Quiz-Game/assets/128820385/76c1ce31-622f-417f-8d7b-fb180c0f026f)
+*Caption: Overview of the project's main webpage.*
+### Dashboard Overview with the generated password
+![Password Quiz question](https://github.com/RaphaGil/Quiz-Game/assets/128820385/e4dcf4a5-9911-47e4-9141-9fb0eee962f5)
+*Caption: A detailed view of the quiz questions.*
+![Password Password Generator prompt](https://github.com/RaphaGil/Quiz-Game/assets/128820385/c50f6646-0a57-4130-b984-d3d9b3bb3727)
+*Caption: A detailed view of the results webpage showcasing the user initial and points.*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+This portfolio is fully responsive and interactive, allowing visitors to:
+Browse through highlighted projects.
+View project descriptions, technologies used, and live demos.
+Access my professional background and contact details.
 
-### `npm run build`
+## Features
+Showcases selected projects with images and descriptions.
+Responsive design for desktop and mobile.
+Easy navigation between sections (About, Projects, Contact).
+Links to GitHub repos and live demos.
+Clean, modern UI with focus on usability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
+If you're also on the journey of learning web development and wish to contribute or offer feedback, don't hesitate to fork the repository and submit a pull request. Contributions and suggestions are highly valued!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Credits
+Developed by Raphaela Gil to showcase my work as a frontend developer.
 
-### `npm run eject`
+## License
+This project is licensed under the MIT License. The MIT License is an open-source license widely used for software projects. It is known for its permissive nature, allowing users to freely use, modify, distribute, and sublicense the software without significant legal restrictions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Raphaela _ Quiz](https://raphagil.github.io/Quiz-Game/) - Raphaela Gil 
+## Contact Information
+If you're interested in sharing ideas, experiences, or collaborating on projects, please feel free to get in touch via email at raphaela.gil@yahoo.com or [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/raphaela-do-amaral-gil-0a9bb945/ ). You can also check my github profile at [![RaphaGil](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/RaphaGil).
