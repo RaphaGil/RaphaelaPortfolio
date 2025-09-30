@@ -100,6 +100,7 @@ function About() {
               " Tailwind |",
               " jQuery |",
               " Node.js |", 
+              " Supabase |", 
               " APIs |",
               " Git |",
               " GitHub |",

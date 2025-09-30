@@ -9,7 +9,7 @@ const ProjectCard = ({ project, index, isVisible }) => {
       }`}
       style={{ transitionDelay: `${index * 200}ms` }}
     >
-      <div className="relative bg-[#890465] rounded-lg shadow-lg overflow-hidden transition-all duration-500 hover:shadow-2xl lg:h-[300px]">
+      <div className="relative bg-[#890465] rounded-lg shadow-lg overflow-hidden transition-all duration-500 hover:shadow-2xl lg:h-[100%]">
         {/* <img
           src={project.image}
           className="w-full h-58 object-cover opacity-90 transition-opacity duration-500 hover:opacity-100"

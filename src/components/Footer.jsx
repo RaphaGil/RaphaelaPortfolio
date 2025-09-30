@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Github, Linkedin, Mail } from "lucide-react"; // Import icons
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Footer() {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   return (
     <div
       id="footer"
