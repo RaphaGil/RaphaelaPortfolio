@@ -58,7 +58,7 @@ function About() {
         </div>
 
         {/* Skills Image */}
-        <div className="bg-white p-6 flex justify-center hidden md:block">
+        <div className="bg-white p-6 hidden md:flex justify-center">
           <img
             src={`${process.env.PUBLIC_URL}/images/skillspic.png`}
             alt="Skills"
@@ -89,36 +89,58 @@ function About() {
             Skills
           </h2>
 
-          <ul className="flex flex-wrap  mb-10">
-            {[
-              " HTML |",
-              " CSS |",
-              " JavaScript |",
-              " React |",
-              "Next.js",
-              " Boostrap |",
-              " Tailwind |",
-              " jQuery |",
-              " Node.js |", 
-              " Supabase |", 
-              " APIs |",
-              " Git |",
-              " GitHub |",
-              " Responsive Design |",
-              " Figma |",
-              " SEO |",
-              " Terminal",
-            ].map((skill, index) => (
-              <li
-                key={skill}
-                className={`md:px-3 py-1 rounded-md text-sm text-black transition-all duration-1000 ease-out transform  ${
-                  isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
-                }`}
-              >
-                {skill}
-              </li>
-            ))}
-          </ul>
+          <div className="mb-10">
+            {/* Frontend Skills */}
+            <div className={`mb-6 transition-all duration-1000 ease-out delay-1100 ${
+              isVisible ? "opacity-100" : "opacity-0"
+            }`}>
+              <h3 className="text-lg font-semibold text-[#890465] mb-3">Frontend</h3>
+              <div className="flex flex-wrap gap-2">
+                {["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind", "Bootstrap", "jQuery"].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1.5 bg-[#890465] bg-opacity-10 text-[#890465] rounded-full text-sm font-medium hover:bg-opacity-20 transition-all duration-300 hover:scale-105"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Backend & Tools */}
+            <div className={`mb-6 transition-all duration-1000 ease-out delay-1200 ${
+              isVisible ? "opacity-100" : "opacity-0"
+            }`}>
+              <h3 className="text-lg font-semibold text-[#890465] mb-3">Backend & Tools</h3>
+              <div className="flex flex-wrap gap-2">
+                {["Node.js", "Supabase", "APIs", "Git", "GitHub", "Terminal"].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1.5 bg-[#890465] bg-opacity-10 text-[#890465] rounded-full text-sm font-medium hover:bg-opacity-20 transition-all duration-300 hover:scale-105"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Design & Other */}
+            <div className={`mb-6 transition-all duration-1000 ease-out delay-1300 ${
+              isVisible ? "opacity-100" : "opacity-0"
+            }`}>
+              <h3 className="text-lg font-semibold text-[#890465] mb-3">Design & Other</h3>
+              <div className="flex flex-wrap gap-2">
+                {["Figma", "Fabric.js", "Responsive Design", "Performance Optimization", "Accessibility", "SEO", "Cursor"].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1.5 bg-[#890465] bg-opacity-10 text-[#890465] rounded-full text-sm font-medium hover:bg-opacity-20 transition-all duration-300 hover:scale-105"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
 
           <a
             href={`${process.env.PUBLIC_URL}/RaphaelaGil_FrontendEngineer.pdf`}
