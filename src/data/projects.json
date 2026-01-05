@@ -6,7 +6,7 @@
     "image": "images/thehappycase.png",
     "deployedLink": "https://raphagil.github.io/TheHappyCase/",
     "repoLink": "https://github.com/RaphaGil/TheHappyCase",
-    "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Next.js", "Tailwind", "UX/UI Design", "Stripe", "Canvas", "Responsive Design"]
+    "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Next.js", "Tailwind", "UX/UI Design", "Stripe", "Canvas", "Supabase", "Responsive Design"]
   },
   {
     "id": 2,
