@@ -4,7 +4,7 @@
     "title": "THE HAPPY CASE",
     "description": "COMING SOON.. A responsive e-commerce site for showcasing and selling custom passport cases. Users can explore unique designs, personalize cases, and order with ease on any device.",
     "image": "images/thehappycase.png",
-    "deployedLink": "thehappycasestore.netlify.app",
+    "deployedLink": "https://thehappycasestore.netlify.app",
     "repoLink": "https://github.com/RaphaGil/TheHappyCase",
     "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Next.js", "Tailwind", "UX/UI Design", "Stripe", "Canvas", "Supabase", "Responsive Design"]
   },
