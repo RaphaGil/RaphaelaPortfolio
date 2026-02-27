@@ -16,7 +16,7 @@ import {
   SiFigma,
 } from "react-icons/si";
 import { FaCode, FaMobileAlt, FaTachometerAlt, FaUniversalAccess, FaSearch, FaTerminal } from "react-icons/fa";
-import { FileText } from "lucide-react";
+import { FileText, MapPin } from "lucide-react";
 
 const SKILL_ICONS = {
   HTML: SiHtml5,
@@ -86,6 +86,10 @@ function About() {
             About Me
           </h2>
           <div className="w-16 h-1 bg-[#A1FA8F] rounded-full mx-auto mt-4" />
+          <p className="mt-4 inline-flex items-center gap-2 text-gray-500 text-sm">
+            <MapPin size={16} className="text-[#890465]" />
+            Based in London, UK
+          </p>
         </div>
 
         <div className="space-y-12">
