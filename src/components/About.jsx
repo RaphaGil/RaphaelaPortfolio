@@ -52,9 +52,14 @@ function About() {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true); // Activate animation when section appears
+          observer.unobserve(entry.target); // Stop observing after first reveal
         }
       },
-      { threshold: 0.3 } // Trigger when 30% of the section is visible
+      {
+        // Lower threshold keeps reveal reliable on small mobile screens.
+        threshold: 0.08,
+        rootMargin: "0px 0px -10% 0px",
+      }
     );
 
     const element = sectionRef.current;
