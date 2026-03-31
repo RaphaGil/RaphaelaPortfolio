@@ -1,14 +1,27 @@
 import React from "react";
-import { Github, Linkedin, Mail } from "lucide-react"; // Import icons
+import { Github, Linkedin, Mail, ChevronUp } from "lucide-react"; // Import icons
 // import { Link } from "react-router-dom";
 
 function Footer() {
   // const [isOpen, setIsOpen] = useState(false);
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div
       id="footer"
       className="bg-[#A1FA8F] py-10 md:py-12 flex flex-col justify-between px-6 md:px-12"
     >
+      <button
+        onClick={handleScrollToTop}
+        className="fixed bottom-6 right-6 z-50 inline-flex items-center gap-1.5 px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-full bg-[#890465] text-[#A1FA8F] text-sm font-semibold shadow-lg hover:bg-[#6f0352] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#890465] focus-visible:ring-offset-2 focus-visible:ring-offset-white"
+        aria-label="Scroll to top"
+      >
+        <ChevronUp size={18} />
+  
+      </button>
+
       {/* Container for footer content */}
       <div className="flex flex-col md:flex-row justify-between space-y-10 md:space-y-0 flex-grow">
         {/* Left side - Info Section */}
@@ -65,7 +78,7 @@ function Footer() {
       {/* Footer text at the bottom */}
       <div className="w-full flex justify-center mt-10 md:mt-0 border-t-2 border-[#890465] pt-4">
         <p className="text-gray-900 font-thin text-sm">
-          © 2025 Raphaela Gil - All Rights Reserved
+          © 2026 Raphaela Gil - All Rights Reserved
         </p>
       </div>
     </div>

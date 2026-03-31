@@ -31,7 +31,7 @@ function Home() {
     <div className="relative md:flex h-auto min-h-screen overflow-auto">
       {/* Left div taking a bit more than half */}
       <div className="md:w-[85%] lg:w-[90%] bg-[#890465] flex items-center md:h-screen">
-        <div className="m-12 md:m-10 mt-40 md:w-3/5 lg:pl-16">
+        <div className="m-6 md:m-10 mt-40 md:w-3/5 lg:pl-16">
           {/* Animated H1 */}
           <h1
             className={`text-[#A1FA8F] font-Montserrat font-bold text-4xl md:text-5xl transition-all duration-1000 ease-out transform ${
@@ -65,7 +65,7 @@ function Home() {
             </span>
           </h3>
 
-          <div
+          {/* <div
             className={`flex flex-wrap gap-6 mt-6 transition-all duration-1000 ease-out delay-450 ${
               isVisible ? "opacity-100" : "opacity-0"
             }`}
@@ -82,10 +82,10 @@ function Home() {
               <span className="w-2 h-2 rounded-full bg-[#A1FA8F] flex-shrink-0" />
               <span className="text-white/90 text-sm">Responsive & accessible</span>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex justify-between mt-10">
-            <div
+            {/* <div
               className={`text-[#A1FA8F] text-sm md:w-[45%] mr-6 transition-all duration-1000 ease-out delay-600 transform ${
                 isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
               }`}
@@ -93,9 +93,9 @@ function Home() {
               <h4>
               Passionate about crafting intuitive and engaging user experiences, I specialize in building modern, responsive web applications with clean, efficient code and a user-centric design approach.
               </h4>
-            </div>
+            </div> */}
 
-            <div
+            {/* <div
               className={`text-[#A1FA8F] text-sm md:w-[45%] transition-all duration-1000 ease-out delay-800 transform ${
                 isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
               }`}
@@ -103,7 +103,7 @@ function Home() {
               <h4>
               I’m driven by curiosity and a constant desire to learn, continuously working to sharpen my skills and take on new challenges. Personal and professional growth are core to my mindset.
               </h4>
-            </div>
+            </div> */}
             
           </div>
           <div
@@ -115,9 +115,9 @@ function Home() {
               href="https://github.com/RaphaGil"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#A1FA8F] text-[#890465] font-semibold rounded-lg hover:bg-white hover:text-[#890465] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#A1FA8F] focus-visible:ring-offset-2 focus-visible:ring-offset-[#890465]"
+              className="inline-flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2 sm:py-2.5 bg-[#A1FA8F] text-[#890465] text-sm sm:text-base font-semibold rounded-lg hover:bg-white hover:text-[#890465] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#A1FA8F] focus-visible:ring-offset-2 focus-visible:ring-offset-[#890465]"
             >
-              <Github size={20} />
+              <Github size={18} className="sm:w-5 sm:h-5" />
               GitHub Profile
             </a>
             <button
@@ -125,9 +125,9 @@ function Home() {
                 const el = document.getElementById("contact");
                 if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
               }}
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-transparent border-2 border-[#A1FA8F] text-[#A1FA8F] font-semibold rounded-lg hover:bg-[#A1FA8F] hover:text-[#890465] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#A1FA8F] focus-visible:ring-offset-2 focus-visible:ring-offset-[#890465]"
+              className="inline-flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2 sm:py-2.5 bg-transparent border-2 border-[#A1FA8F] text-[#A1FA8F] text-sm sm:text-base font-semibold rounded-lg hover:bg-[#A1FA8F] hover:text-[#890465] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#A1FA8F] focus-visible:ring-offset-2 focus-visible:ring-offset-[#890465]"
             >
-              <Mail size={20} />
+              <Mail size={18} className="sm:w-5 sm:h-5" />
               Contact Me
             </button>
           </div>

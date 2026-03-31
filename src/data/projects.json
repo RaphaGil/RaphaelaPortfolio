@@ -3,13 +3,12 @@
     {
       "id": 1,
       "title": "THE HAPPY CASE",
-      "description": "COMING SOON.. A responsive e-commerce site for showcasing and selling custom passport cases. Users can explore unique designs, personalize cases, and order with ease on any device.",
+      "description": "A responsive e-commerce site for showcasing and selling custom passport cases. Users can explore unique designs, personalize cases, and order with ease on any device.",
       "image": "/images/thehappycase.png",
       "deployedLink": "https://thehappycase.store/",
       "repoLink": "https://github.com/RaphaGil/TheHappyCase",
       "technologies": ["HTML", "CSS", "JavaScript", "React", "Git", "GitHub", "Next.js", "Tailwind", "UX/UI Design", "Stripe", "Canvas", "Supabase", "Responsive Design"],
       "category": "e-commerce",
-      "status": "in-development",
       "featured": true
     },
     {
